@@ -56,6 +56,24 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+
+                <tr>
+                  <th scope="row">3</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/reverse-coding2452/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Sum of Naturals
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
