@@ -91,6 +91,23 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/swap-the-numbers/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Swap Two Numbers
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
