@@ -38,6 +38,24 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+
+                <tr>
+                  <th scope="row">2</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/print-table0303/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Multiplication Table
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -55,10 +73,10 @@ const ProblemTable = () => {
             }}
             tabIndex="-1"
           >
-            <div className="modal-dialog">
+            <div class="modal-dialog ">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h1 className="modal-title fs-5">Modal title</h1>
+                  <h1 className="modal-title fs-5">Notes</h1>
                   <button
                     type="button"
                     class="btn-close"
@@ -67,8 +85,10 @@ const ProblemTable = () => {
                     onClick={() => setShowModal(false)}
                   ></button>
                 </div>
-                <div className="modal-body">Odd or even
-                    <input type="text-area"  />
+                <div className="modal-body">
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave a Note here" id="floatingTextarea2"></textarea>
+                    </div>
                 </div>
                 <div className="modal-footer">
                   <button
