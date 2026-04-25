@@ -74,6 +74,23 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/sum-of-squares-of-first-n-natural-numbers/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Sum of Squares
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
