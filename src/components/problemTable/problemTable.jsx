@@ -108,6 +108,40 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/closest-number5728/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Closest Number
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>Incomplete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/the-dice-problem2316/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Dice Problem
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
