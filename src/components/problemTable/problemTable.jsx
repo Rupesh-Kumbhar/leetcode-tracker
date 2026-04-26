@@ -142,6 +142,24 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <br />
+                <tr>
+                  <th scope="row">8</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/sum-of-digits1742/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Sum of Digits
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td> 
+                </tr>
               </tbody>
             </table>
           </div>
