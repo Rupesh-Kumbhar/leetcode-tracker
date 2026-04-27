@@ -120,7 +120,7 @@ const ProblemTable = () => {
                     </a>
                   </td>
                   <td> - </td>
-                  <td>Incomplete</td>
+                  <td>Incomplete <progress value="0" max="100"></progress> </td>
                   <td>
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
@@ -159,6 +159,23 @@ const ProblemTable = () => {
                   <td>
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td> 
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/reverse-digit0316/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Reverse Digits
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>In Progress <progress value="50" max="100"></progress></td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
                 </tr>
               </tbody>
             </table>
