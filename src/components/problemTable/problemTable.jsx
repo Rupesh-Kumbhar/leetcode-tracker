@@ -172,7 +172,7 @@ const ProblemTable = () => {
                     </a>
                   </td>
                   <td> - </td>
-                  <td>In Progress <progress value="50" max="100"></progress></td>
+                  <td>Complete</td>
                   <td>
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
