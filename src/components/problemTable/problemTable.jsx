@@ -189,7 +189,7 @@ const ProblemTable = () => {
                     </a>
                   </td>
                   <td> - </td>
-                  <td>In Complete</td>
+                  <td>Complete</td>
                   <td>
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
