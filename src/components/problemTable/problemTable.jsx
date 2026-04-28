@@ -177,6 +177,23 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Prime Testing
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>In Complete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
