@@ -211,6 +211,24 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                
+                <tr>
+                  <th scope="row">12</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Overlapping Rectangles
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>inComplete</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
