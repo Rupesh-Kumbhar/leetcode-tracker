@@ -247,6 +247,23 @@ const ProblemTable = () => {
                     <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">14</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/pair-cube-count4132/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Pair Cube Count
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>In Progress</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
 
               </tbody>
             </table>
