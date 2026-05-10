@@ -265,6 +265,24 @@ const ProblemTable = () => {
                   </td>
                 </tr>
 
+                <tr>
+                  <th scope="row">15</th>
+                  <td>
+                    <a
+                      href="https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GCD or HCF
+                    </a>
+                  </td>
+                  <td> - </td>
+                  <td>In Progress</td>
+                  <td>
+                    <button type="button" className="btn btn-primary" onClick={() => setShowModal(true)} >Add notes</button>
+                  </td>
+                </tr>
+
               </tbody>
             </table>
           </div>
